@@ -1,0 +1,37 @@
+nav {
+    position: fixed;
+    background-color: #333;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    ul {
+        /* Retirar ponto */
+        /* list-style-type: none; */
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        /* background-color: #333; */
+    }
+
+    li {
+        float: left;
+        font-family: "Roboto", sans-serif;
+        display: block;
+        text-align: center;
+        padding: 14px;
+    }
+
+    a {
+        /* Retirar sublinhado */
+        text-decoration: none;
+        color: white;
+    }
+
+    li:hover {
+        background-color: var(--ter-color);
+    }
+}
+
+
+
